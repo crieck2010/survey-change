@@ -1,0 +1,1 @@
+{"connectivity":8,"gain_threshold":null,"loss_threshold":null,"mask_nodata":true,"method":"difference","min_region_pixels":4,"name":"ndvi-disturbance-watch","percentile":95.0,"threshold":null,"threshold_method":"otsu"}
