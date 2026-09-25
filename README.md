@@ -1,14 +1,19 @@
 # survey-change
 
+> **Part of [earthwatch-suite](https://github.com/crieck2010/earthwatch-suite)** —
+> the remote-sensing project. Terrestrial surveying lives in
+> [survey-suite](https://github.com/crieck2010/survey-suite); the two stay
+> compatible through the
+> [cross-suite contracts](https://github.com/crieck2010/earthwatch-suite/blob/main/docs/CONTRACTS.md).
+
 Change-detection engine for surveying and remote sensing: compare two (or more)
 raster acquisitions and turn the differences into decision-ready products —
 change rasters, gain/loss masks, change polygons, transition matrices, and
 QGIS-styled outputs.
 
-Part of the [survey suite](https://github.com/crieck2010/survey-suite) — one
-pure-logic, pip-installable engine per module. `survey-change` consumes the
-outputs of `survey-imagery` (index COGs, monitor `timeseries.csv` archives)
-and `survey-raster`, and its GeoJSON/QML outputs drop straight into QGIS.
+`survey-change` consumes the outputs of `survey-imagery` (index COGs, monitor
+`timeseries.csv` archives) and `survey-raster` (from the surveying side), and
+its GeoJSON/QML outputs drop straight into QGIS.
 
 ## What it does
 
